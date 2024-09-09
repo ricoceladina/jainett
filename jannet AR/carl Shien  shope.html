@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .product-item {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-item h3 {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        .product-item p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .product-item span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff5722;
+        }
+
+        .text-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-section p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            .product-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Jannet Clothing Store</h1>
+        <img src="C:\Users\PC\Downloads\jannet AR\homepage amazing\Minimalist Circle Letter J Logo.png" alt="some_text" width="40" height="40">
+        <p>Your one-stop shop for trendy clothing!</p>
+        <li><a href="C:\Users\PC\Downloads\jannet AR\homepage amazing\trial.html">Home</a></li>
+    </header>
+
+    <div class="container">
+        <!-- Products Section -->
+        <section class="product">
+            <div class="product-item">
+                <img src="C:\Users\PC\Downloads\jannet AR\online shope\att.5rZ7X7tVvwIYm2CVzsDDmfeYXOgVt2_OR67jQMPHre0.jpg" alt="Product 1">
+                <h3>Denim Jacket</h3>
+                <p>Classic blue denim jacket with a vintage look.</p>
+                <span>₱1,500.00</span>
+            </div>
+            <div class="product-item">
+                <img src="C:\Users\PC\Downloads\jannet AR\online shope\att.Wwub3Mvo1CFLQUONylCaWnbb9o0AgXuDnejozgRdR-g.jpg" alt="Product 2">
+                <h3>Floral Dress</h3>
+                <p>Light and breezy summer dress with floral patterns.</p>
+                <span>₱2,000.00</span>
+            </div>
+            <div class="product-item">
+                <img src="C:\Users\PC\Downloads\jannet AR\online shope\att.qrA7MZLEwdfyMSQMJ99qE7A0hq0E3fmoSXDI9FasDMU.jpg" alt="Product 3">
+                <h3>Leather Boots</h3>
+                <p>High-quality leather boots for all occasions.</p>
+                <span>₱3,200.00</span>
+            </div>
+            <div class="product-item">
+                <img src="C:\Users\PC\Downloads\jannet AR\online shope\green.webp" alt="Product 4">
+                <h3>Graphic T-Shirt</h3>
+                <p>Casual T-shirt with a trendy graphic design.</p>
+                <span>₱800.00</span>
+            </div>
+            <div class="product-item">
+                <img src="C:\Users\PC\Downloads\jannet AR\online shope\att.AaqVEUy-XD-GXaLovbs3oJjeeHVCkJolphkPhr8qyBU.jpg" alt="Product 5">
+                <h3>Chino Pants</h3>
+                <p>Slim-fit chino pants available in various colors.</p>
+                <span>₱1,200.00</span>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="text-section">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide fashionable clothing at affordable prices without compromising on quality. We strive to make our customers look and feel their best, while continuously innovating to meet the latest fashion trends.</p>
+        </section>
+
+        <!-- Vision Section -->
+        <section class="text-section">
+            <h2>Our Vision</h2>
+            <p>Our vision is to become the leading fashion retailer in the region, offering a wide range of products that appeal to diverse tastes and preferences. We aim to be recognized for our commitment to sustainability and customer satisfaction.</p>
+        </section>
+
+        <!-- History Section -->
+        <section class="text-section">
+            <h2>Our History</h2>
+            <p>Established in 2010, our clothing store started as a small boutique with a passion for fashion. Over the years, we’ve grown into a trusted brand, known for our stylish, high-quality clothing. Today, we are proud to have served thousands of satisfied customers and to continue expanding our reach.</p>
+        </section>
+<!-- About Us Section -->
+<section class="text-section">
+  <h2>About Us</h2>
+  <p>Welcome to our clothing store! We are dedicated to offering a curated selection of fashionable clothing that blends style, comfort, and affordability. Our team is passionate about fashion and committed to providing exceptional customer service. With a focus on quality and trend-setting designs, we strive to help our customers express their unique style. Thank you for choosing us as your go-to fashion destination!</p>
+</section>
+        <!-- Contact Information -->
+        <section class="contact-info">
+            <h2>Visit Our Store</h2>
+            <p>Address: 123 Fashion Street, Quezon City</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.327470752392!2d121.02149041482993!3d14.63554538977095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7b5b708ba29%3A0xb5b914b9eb9c4a5e!2sQuezon%20City!5e0!3m2!1sen!2sph!4v1630414371375!5m2!1sen!2sph"></iframe>
+            <p>Email: info@clothingstore.com</p>
+            <p>Contact: +63 912 345 6789</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Clothing Store | All Rights Reserved
+    </footer>
+
+</body>
+
+</html>

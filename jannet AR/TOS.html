@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\PC\Downloads\Group Portfolio\Types of OS\OSS.css">
+    <title>Types of Operating Systems</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            background: #333;
+            color: white;
+            padding: 15px;
+            top: 0;
+        }
+
+        .menu {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .menu ul li {
+            margin-left: 15px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .menu ul li a:hover {
+            color: #ccc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 100px auto 50px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 0 20px;
+        }
+
+        .os-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .os-card h2 {
+            margin: 15px 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .os-card p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .os-card h3 {
+            margin: 10px 0;
+            font-size: 20px;
+            color: #444;
+        }
+
+        .os-card ul {
+            list-style: disc;
+            margin-left: 20px;
+            padding-left: 10px;
+            color: #555;
+        }
+
+        .os-card ul li {
+            padding: 5px 0;
+            font-size: 16px;
+        }
+
+        .os-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .menu ul li {
+                margin-left: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="#">Types of OS</a>
+            </div>
+            <ul>
+                <li><a href="C:\Users\PC\Downloads\jannet AR\homepage amazing\trial.html">Jannet</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Windows Section -->
+        <div class="os-card">
+            <center>
+                <img src="C:\Users\PC\Downloads\jannet AR\Types of OS\Windows.png" alt="Windows" class="os-image">
+            </center>
+            <h2 style="color: #0078d7;">Windows</h2>
+            <p>History: The first version of Windows was released on November 20, 1985.</p>
+            <h3>Versions</h3>
+            <ul>
+                <li>Windows 1.0 (1985)</li>
+                <li>Windows 95 (1995)</li>
+                <li>Windows XP (2001)</li>
+                <li>Windows 7 (2009)</li>
+                <li>Windows 8 (2012)</li>
+                <li>Windows 10 (2015)</li>
+                <li>Windows 11 (2021)</li>
+            </ul>
+            <h3>Features</h3>
+            <ul>
+                <li>Speed</li>
+                <li>Compatibility</li>
+                <li>Lower Hardware Requirements</li>
+                <li>Safety and Security</li>
+            </ul>
+        </div>
+
+        <!-- Mac OS Section -->
+        <div class="os-card">
+            <center>
+                <img src="C:\Users\PC\Downloads\jannet AR\Types of OS\Mac OS.jpg" alt="Mac OS" class="os-image">
+            </center>
+            <h2 style="color: #0078d7;">Mac OS</h2>
+            <p>History: The history of macOS began with the project to replace the "classic" Mac OS.</p>
+            <h3>Versions</h3>
+            <ul>
+                <li>Mac OS 9 (1999)</li>
+                <li>Mac OS X Tiger (2005)</li>
+                <li>Mac OS X Snow Leopard (2009)</li>
+                <li>OS X El Capitan (2015)</li>
+                <li>macOS Sierra (2016)</li>
+                <li>macOS Mojave (2018)</li>
+                <li>macOS Ventura (2022)</li>
+            </ul>
+            <h3>Features</h3>
+            <ul>
+                <li>FaceTime upgrades</li>
+                <li>Universal Control across devices</li>
+                <li>Safari revamp</li>
+                <li>Live Text and Visual Lookup</li>
+            </ul>
+        </div>
+
+        <!-- Linux Section -->
+        <div class="os-card">
+            <center>
+                <img src="C:\Users\PC\Downloads\jannet AR\Types of OS\linux.png" alt="Linux" class="os-image">
+            </center>
+            <h2 style="color: #0078d7;">Linux</h2>
+            <p>History: Linux began in 1991 as a personal project by Linus Torvalds.</p>
+            <h3>Versions</h3>
+            <ul>
+                <li>Linux 0.01 (1991)</li>
+                <li>Linux 2.0 (1996)</li>
+                <li>Linux 2.6 (2003)</li>
+                <li>Linux 3.0 (2011)</li>
+                <li>Linux 4.0 (2015)</li>
+                <li>Linux 5.0 (2019)</li>
+                <li>Linux 6.0 (2022)</li>
+            </ul>
+            <h3>Features</h3>
+            <ul>
+                <li>Portable Environment</li>
+                <li>Free and Open-Source</li>
+                <li>Graphical User Interface (GUI)</li>
+                <li>Frequent New Updates</li>
+            </ul>
+        </div>
+
+        <!-- iOS Section -->
+        <div class="os-card">
+            <center>
+                <img src="C:\Users\PC\Downloads\jannet AR\Types of OS\IOS.png" alt="iOS" class="os-image">
+            </center>
+            <h2 style="color: #0078d7;">iOS</h2>
+            <p>History: iOS is a mobile operating system developed by Apple Inc.</p>
+            <h3>Versions</h3>
+            <ul>
+                <li>iOS 1 (2007)</li>
+                <li>iOS 3 (2009)</li>
+                <li>iOS 4 (2010)</li>
+                <li>iOS 7 (2013)</li>
+                <li>iOS 11 (2017)</li>
+                <li>iOS 14 (2020)</li>
+                <li>iOS 17 (2023)</li>
+            </ul>
+            <h3>Features</h3>
+            <ul>
+                <li>Lock Screen gallery</li>
+                <li>Multilayered photo effect</li>
+                <li>Photo shuffle</li>
+                <li>Suggested photos</li>
+            </ul>
+        </div>
+
+        <!-- Android Section -->
+        <div class="os-card">
+            <center>
+                <img src="C:\Users\PC\Downloads\jannet AR\Types of OS\Andriod.png" alt="Android" class="os-image">
+            </center>
+            <h2 style="color: #0078d7;">Android</h2>
+            <p>History: Android is an operating system for cellular telephones and tablets, first released in 2008.</p>
+            <h3>Versions</h3>
+            <ul>
+                <li>Android 1.0 (2008)</li>
+                <li>Android 2.3 (Gingerbread) (2010)</li>
+                <li>Android 4.0 (Ice Cream Sandwich) (2011)</li>
+                <li>Android 5.0 (Lollipop) (2014)</li>
+                <li>Android 6.0 (Marshmallow) (2015)</li>
+                <li>Android 9.0 (Pie) (2018)</li>
+                <li>Android 13 (2022)</li>
+            </ul>
+            <h3>Features</h3>
+            <ul>
+                <li>Beautiful UI</li>
+                <li>Multi-tasking</li>
+                <li>Google Cloud Messaging</li>
+                <li>Multi-Language</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

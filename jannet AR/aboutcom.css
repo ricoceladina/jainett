@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    color: rgba(255, 255, 255, 0.979);
+    background: rgb(206, 129, 42);
+}
+
+nav {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.979);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo a {
+    text-decoration: none;
+    color: rgb(240, 233, 233);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background: rgb(253, 253, 253);
+    color: rgb(255, 244, 244);
+}
+
+.img {
+    background: url('img3.jpg')no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 252, 252);
+}
+
+.dropbtn{
+    background-color: #000000;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    font-family: sans-serif;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
